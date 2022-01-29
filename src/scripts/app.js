@@ -179,6 +179,10 @@ class UI {
     });
 
     buyAllItems.addEventListener('click', () => {
+      const items = document.querySelectorAll('.cart-content .cart-item');
+      if (!items.length) {
+        return;
+      }
       const congrats = document.createElement('div');
       congrats.innerHTML = `
         <h2 class='congrats-message'>¡Muchas gracias por correr con nosotros!</h3>

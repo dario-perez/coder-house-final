@@ -411,9 +411,9 @@ button {
   margin: 10px;
 }
 
-.close-cart:active {
-  transform: scale(0.9);
-  transition: all 0.2s ease;
+.close-cart-btn {
+  width: 40px;
+  display: inline-block;
 }
 
 .cart h2 {
