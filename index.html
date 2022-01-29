@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/9c9949d027.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/9c9949d027.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Ease Foot</title>
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./src/img/favicon/sneakers.png"
+    />
+  </head>
+  <body>
+    <!-- top navbar -->
+    <header>
+      <a href="./index.html" class="logo" id="logo">EASE FOOT</a>
+      <a href="" class="contact" id="contact">Contacto</a>
+      <div class="cart-btn">
+        <span class="nav-icon">
+          <i class="fas fa-shopping-cart"></i>
+        </span>
+        <div class="cart-items-counter">0</div>
+      </div>
+      <a href="./login.html" class="login" id="login">Ingresa</a>
+      <a href="./login.html" class="register" id="register">Regístrate</a>
+    </header>
+
+    <!-- slider -->
+    <div class="slider">
+      <div class="slider-content">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+
+          <div class="slide first">
+            <img src="./src/img/slider/1.png" alt="" />
+            <div class="text-over">
+              <h2>LOREM IPSUN</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus adipisci laudantium aut! Ipsa veritatis similique
+                facilis, pariatur sunt repellendus, corrupti consequatur
+                obcaecati animi perspiciatis deserunt odit maxime saepe fugiat
+                nihil, voluptates fuga! Accusamus, ad sit! Illo laboriosam
+                perferendis maxime hic iste quaerat fugit error. Laudantium
+                blanditiis nam, iure quis incidunt minima cum ducimus aspernatur
+                repudiandae aut sed enim expedita aliquid ullam possimus dolor
+                delectus corrupti illo quibusdam magnam sunt explicabo quas.
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="./src/img/slider/2.png" alt="" />
+            <div class="text-over">
+              <h2>LOREM IPSUN</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus adipisci laudantium aut! Ipsa veritatis similique
+                facilis, pariatur sunt repellendus, corrupti consequatur
+                obcaecati animi perspiciatis deserunt odit maxime saepe fugiat
+                nihil, voluptates fuga! Accusamus, ad sit! Illo laboriosam
+                perferendis maxime hic iste quaerat fugit error.
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="./src/img/slider/3.png" alt="" />
+            <div class="text-over">
+              <h2>LOREM IPSUN</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus adipisci laudantium aut! Ipsa veritatis similique
+                facilis, pariatur sunt repellendus, corrupti consequatur
+                obcaecati animi perspiciatis deserunt odit maxime saepe fugiat
+                nihil, voluptates fuga! Accusamus, ad sit! Illo laboriosam
+                perferendis maxime hic iste quaerat fugit error. Laudantium
+                blanditiis nam, iure quis incidunt minima cum ducimus.
+              </p>
+            </div>
+          </div>
+
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+          </div>
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+        </div>
+      </div>
+    </div>
+
+    <!-- sidebar container -->
+
+    <div class="main-content">
+      <div class="sidebar">
+        <div class="sidebar-content">
+          <h2 class="sidebar-header">EASE FOOT</h2>
+          <div class="sidebar-separator"></div>
+          <div class="brands">
+            <h3>Marcas que trabajan con nosotros</h3>
+            <div class="brand-img">
+              <img src="./src/img/logos/adidas.png" alt="Adidas" />
+              <img src="./src/img/logos/new-balance.png" alt="New Balance" />
+              <img src="./src/img/logos/nike.png" alt="Nike" />
+              <img src="./src/img/logos/topper.png" alt="Topper" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- product cards container -->
+      <div class="products-container">
+        <!-- <div class="card">
+          <div class="product-img">
+            <img
+              src="./src/img/adidas Zapatillas Mujer - Lite Racer 2.0 Lilca.png"
+              alt="imagen de producto"
+            />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">
+              Zapatillas Adidas - Lite Racer 2.0 Lilca
+            </h3>
+            <p class="product-price">$11549</p>
+            <select name="talles" id="">
+              <option disabled selected>Elegí tu talle</option>
+              <option value="talle 35">35</option>
+              <option value="talle 36">36</option>
+              <option value="talle 37">37</option>
+              <option value="talle 38">38</option>
+              <option value="talle 39">39</option>
+              <option value="talle 40">40</option>
+              <option value="talle 41">41</option>
+              <option value="talle 42">42</option>
+              <option value="talle 43">43</option>
+              <option value="talle 44">44</option>
+            </select>
+            <button class="to-cart-btn" data-id="id">Agregar a Carrito</button>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- cart -->
+    <div class="cart-overlay show-cart">
+      <div class="cart">
+        <div class="close-cart">
+          <span class="close-cart-btn">
+            <i class="fas fa-window-close"></i>
+          </span>
+        </div>
+        <h2>Productos en carrito</h2>
+        <div class="cart-content">
+          <!-- <div class="cart-item">
+            <img
+              src="./src/img/Zapatilla-Topper-Hombre-Warp-Negrolima-Spring.png"
+              alt="product"
+            />
+            <div class="cart-item-info">
+              <h3>Zapatilla Topper Warp Negrolima Spring</h3>
+              <p>$8499</p>
+              <span class="remove-item" data-id="id">Remove</span>
+            </div>
+          </div> -->
+        </div>
+        <div class="cart-footer">
+          <h3>Tu total es de: $<span class="cart-total">0</span></h3>
+          <button class="clear-cart-btn">Remover todo</button>
+          <button class="buy-all-btn">Comprar todo</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="contact-div">
+        <div class="left-div">
+          <div class="footer-title">
+            <h3>¡Contactanos!</h3>
+          </div>
+          <div class="email">
+            <i class="fas fa-envelope"></i>
+            <span class="email-span">contactanos@easefoot.com</span>
+          </div>
+          <div class="tel">
+            <i class="fas fa-phone-square-alt"></i>
+            <span class="tel-span">+54 9 958 2269</span>
+          </div>
+        </div>
+        <div class="right-div">
+          <div class="social-container">
+            <h3 class="social-text">Buscanos en nuestras redes sociales.</h3>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- scripts links -->
+    <script src="./src/scripts/app.js" defer></script>
+    <script src="./src/scripts/slider.js" defer></script>
+  </body>
+</html>

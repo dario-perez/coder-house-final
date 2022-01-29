@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "name": "Zapatillas Adidas - Lite Racer 2.0 Lilca",
+      "price": "11549",
+      "brand": "Adidas",
+      "category": "Running",
+      "gender": "Mujer",
+      "imgUrl": "./src/img/Zapatillas-Adidas-Mujer-Lite-Racer-2.0-Lilca.png",
+      "id": "1"
+    },
+    {
+      "name": "Zapatilla Topper Warp Negrolima Spring",
+      "price": "8499",
+      "brand": "Topper",
+      "category": "Running",
+      "gender": "Hombre",
+      "imgUrl": "./src/img/Zapatilla-Topper-Hombre-Warp-Negrolima-Spring.png",
+      "id": "2"
+    },
+    {
+      "name": "Zapatilla Topper Ultralight Ii",
+      "price": "6199",
+      "brand": "Topper",
+      "category": "Running",
+      "gender": "Mujer",
+      "imgUrl": "./src/img/Zapatilla-Topper-Ultralight-Ii-26271gbyn.png",
+      "id": "3"
+    },
+    {
+      "name": "Zapatilla Topper Ultralight Ii Mesh Negro Dash",
+      "price": "4299",
+      "brand": "Topper",
+      "category": "Urbano",
+      "gender": "Hombre",
+      "imgUrl": "./src/img/Zapatilla-Topper-Ultralight-Ii-Mesh-0479-26270-Negro-Dash.png",
+      "id": "4"
+    },
+    {
+      "name": "Zapatillas Adidas Qt Racer Sport",
+      "price": "11999",
+      "brand": "Adidas",
+      "category": "Running",
+      "gender": "Mujer",
+      "imgUrl": "./src/img/Zapatillas-adidas-Qt-Racer-Sport-En-Negroblanco-Stock-Cen.png",
+      "id": "5"
+    },
+    {
+      "name": "Zapatillas New Balance 520v7",
+      "price": "11749",
+      "brand": "New Balance",
+      "category": "Fitness",
+      "gender": "Hombre",
+      "imgUrl": "./src/img/Zapatillas-Hombre-New-Balance-520v7-Deportivas-Fitness.png",
+      "id": "6"
+    },
+    {
+      "name": "Zapatillas New Balance 413",
+      "price": "9599",
+      "brand": "New Balance",
+      "category": "Fitness",
+      "gender": "Mujer",
+      "imgUrl": "./src/img/Zapatillas-Mujer-New-Balance-413-Running-Deportivas-W413ri1.png",
+      "id": "7"
+    },
+    {
+      "name": "Zapatillas New Balance 574",
+      "price": "13449",
+      "brand": "New Balance",
+      "category": "Fitness",
+      "gender": "Mujer",
+      "imgUrl": "./src/img/Zapatillas-Mujer-New-Balance-574-Moda-Wl574saw.png",
+      "id": "8"
+    },
+    {
+      "name": "Zapatillas Nike City Rep Tr",
+      "price": "12999",
+      "brand": "Nike",
+      "category": "Running",
+      "gender": "Mujer",
+      "imgUrl": "./src/img/Zapatillas-Nike-City-Rep-Tr-En-Violetarosa-Stock-Center-B.png",
+      "id": "9"
+    },
+    {
+      "name": "Zapatillas Nike Quest 4 Nike",
+      "price": "15499",
+      "brand": "Nike",
+      "category": "Running",
+      "gender": "Hombre",
+      "imgUrl": "./src/img/Zapatillas-Quest-4-Nike-Nike-Tienda-Oficial.png",
+      "id": "10"
+    },
+    {
+      "name": "Zapatillas Adidas Showtheway 78 Performance",
+      "price": "9499",
+      "brand": "Adidas",
+      "category": "Running",
+      "gender": "Hombre",
+      "imgUrl": "./src/img/Zapatillas-Showtheway-adidas-78-Performance-Tienda-Oficial.png",
+      "id": "11"
+    },
+    {
+      "name": "Zapatillas Nike Winflo 8",
+      "price": "20499",
+      "brand": "Nike",
+      "category": "Running",
+      "gender": "Hombre",
+      "imgUrl": "./src/img/Zapatillas-Winflo-8-Nike-Nike-Tienda-Oficial.png",
+      "id": "12"
+    }
+  ]
+}
